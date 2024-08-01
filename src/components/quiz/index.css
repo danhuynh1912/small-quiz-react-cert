@@ -1,0 +1,29 @@
+.options {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.score {
+  width: fit-content;
+  height: fit-content;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+.score p {
+  margin: 0;
+}
+
+.score-red {
+  background-color: red;
+}
+
+.score-yellow {
+  background-color: yellow;
+}
+
+.score-green {
+  background-color: green;
+  color: white;
+}
